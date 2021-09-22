@@ -1,0 +1,17 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+section {
+    border: 1px solid #fcc205ec;
+}
+
+article {
+    border: 1px solid pink;
+    color: rgb(236, 12, 206);
+    background-color: yellowgreen;
+}
