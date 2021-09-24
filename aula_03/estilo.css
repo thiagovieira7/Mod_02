@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2 {
+    color: blueviolet;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+a:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+.divs {
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 20px;
+}
+.navegacao {
+    margin: 20px;
+}

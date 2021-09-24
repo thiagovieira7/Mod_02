@@ -6,6 +6,10 @@ h1 {
     color: blue;
 }
 
+main{
+    background-color: rgb(203, 248, 248)
+}
+
 section {
     border: 1px solid #fcc205ec;
 }
@@ -14,4 +18,13 @@ article {
     border: 1px solid pink;
     color: rgb(236, 12, 206);
     background-color: yellowgreen;
+}
+
+#titulo1 {
+    color: blue;
+    font-style: italic;
+}
+.titulo2 {
+    color: green;
+    font-weight: bold;
 }
