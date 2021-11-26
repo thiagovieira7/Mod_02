@@ -1,0 +1,15 @@
+header{
+    color: rgb(10, 31, 150); background: rgb(86, 179, 255);
+}
+h2{
+    color: yellow; 
+    background: red
+}
+p {
+    color: rgb(199, 17, 17);
+    background: yellowgreen
+}
+h3{
+    color: green;
+    background: greenyellow
+}
