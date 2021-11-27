@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CADASTRO </title>
+  </head>
+  
+  <body >
+    
+    <section class="fundo">
+      <section>
+        <div>
+          <header>      
+            <h1 >CADASTRO POKEMON</h1>
+            
+          </header>
+          
+          
+        </div>
+        
+      </section>
+  
+      <section class="btIndex">
+        <a href="/">Inicio</a>
+    
+        <a href="detalhes">Detalhes</a>
+        
+      </section>
+  
+      <section id="formulario">
+  
+        <form action="/new" method="POST">
+          <section class="formInterno"> 
+            <label for="numero">Número</label>
+            <input class= "cx" type="number" name="numero" placeholder="Informe o número do Pokemon" required>
+          </section>
+      
+          <section class="formInterno">
+            <label for="nome">Nome</label>
+            <input class= "cx"  type="text" name="nome" placeholder="Informe o nome do Pokemon" required>
+          </section>
+      
+          <section class="formInterno">
+            <label for="tipo">Tipo</label>
+            <input class= "cx"  type="text" name="tipo"  placeholder="Informe o tipo do Pokemon" required>
+          </section>
+      
+          <section class="formInterno">
+            <label for="imagem">Imagem</label>
+            <input class= "cx"  type="text" name="imagem"  placeholder="Insira a url da imagem do Pokemon">
+          </section>
+      
+          <section class="formInterno">
+            <label for="descricao">Descrição</label>
+            <input class= "cx"  type="text" name="descricao"  placeholder="Informe a descricao">
+          </section>
+      
+          <section class="formInterno">
+            <label for="altura">Altura</label>
+            <input class= "cx"  type="number" name="altura" in="0" max="1000" step="0.01" 
+            placeholder="Informe o nome do Pokemon">
+          </section>
+      
+          <section class="formInterno">
+            <label for="peso">Peso</label>
+            <input class= "cx"  type="number" name="peso" min="0" max="1000" step="0.01"  
+            placeholder="Informe o peso">
+          </section>
+          
+          <section class="formInterno">
+            <label for="categoria">Categoria</label>
+            <input  class= "cx"  type="text" name="categoria"  placeholder="Informe a categoria">
+          </section>
+      
+          <section class="formInterno">
+            <label for="habilidade">Habilidade</label>
+            <input  class= "cx"  type="text" name="habilidade"  placeholder="Informe a habilidade">
+          </section>
+  
+          <section class="btIndex">
+                            
+            <input type="submit" class="btn btn-primary" onclick="cadastro()"/>
+          </section>
+
+        </form>
+
+        <script>
+          function cadastro(){
+              alert('Pokemon Cadastrado com Sucesso');
+          }
+          
+        </script>
+    
+      </section>
+  
+    </section>
+    
+  </body>
+
+  
+</html>
